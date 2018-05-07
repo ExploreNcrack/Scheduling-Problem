@@ -12,8 +12,15 @@ The goal is to **minimize the student overlap exam as little as possible** with 
 Such problem can be expressed as a graph
 ### Definition of a Graph
 Informally, a graph is made up of a set of dots and lines connected the dots
-</br>Formally, a graph G is a pair of sets **(V,E)** where 
+</br>Formally, a graph **G** is a pair of sets **(V,E)** where 
 </br>**V** is a **non-empty** set of item called **vertices(or nodes)**
 </br>**E** is a set of 2-item subsets of V called **edges**
+### Graph Coloring Problem
+Given a **graph G** and **K colors**, assign a color to each node so adjacent(neighbour) nodes get different colors.
+</br>The **minimum value of K** for which such a coloring exist is the **Chromatic Number of G**
+</br>
+</br>
+</br>
+In the exam scheduling porblem, we can express all the courses in student's schedule as vertices(nodes) and connect the vertices if there are overlaping student in those courses. And then, two courses that are not in the edge set E can have the same exam schedule time.  
 ## Reference
 [Tom Leighton, and Marten Dijk. 6.042J Mathematics for Computer Science. Fall 2010. Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu. License: Creative Commons BY-NC-SA.](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/lecture-6-graph-theory-and-coloring/)

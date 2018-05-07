@@ -21,7 +21,7 @@ Given a **graph G** and **K colors**, assign a color to each node so adjacent(ne
 </br>
 </br>
 </br>
-In the exam scheduling porblem, we can express all the courses in student's schedule as vertices(nodes) and connect the vertices if there are overlaping student in those courses. And then, two courses that are not in the edge set E can have the same exam schedule time. Our goal is to assign minimum number of avaiable timeslots to each of the courses and the courses with overlaping student do not have the same timeslots.
+In the exam scheduling porblem, we can express all the courses in student's schedule as vertices(nodes) and connect the vertices if there are overlaping student in those courses. And then, two courses that are not in the edge set E can have the same exam schedule time. Our goal is to assign minimum number of avaiable timeslots to each of the courses and the courses with overlaping student do not have the same timeslots. When considering this problem in terms of graph, this is exactly what graph coloring problem is. In this case, the number of available timeslots is the number of different colors of the problem.
 
 ## Reference
 [Tom Leighton, and Marten Dijk. 6.042J Mathematics for Computer Science. Fall 2010. Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu. License: Creative Commons BY-NC-SA.](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/lecture-6-graph-theory-and-coloring/)

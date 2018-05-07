@@ -2,7 +2,7 @@
 A very typical kind of scheduling problem is the exam scheduling problem.
 ## Problem
 Given all the data about **student course enrollment**
-*(A student may enroll into mutiple courses in one semester which causes **overlaping student enrollments**)* 
+*(A student may enroll into multiple courses in one semester which causes **overlaping student enrollments**)* 
 and **time slot** of the scheduling.
 ### Goal
 The goal is to **minimize the student overlap exam as little as possible** with the **minimum number of timeslots**

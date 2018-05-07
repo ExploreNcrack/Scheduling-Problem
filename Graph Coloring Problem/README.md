@@ -18,6 +18,7 @@ Informally, a graph is made up of a set of dots and lines connected the dots
 ### Graph Coloring Problem
 Given a **graph G** and **K colors**, assign a color to each node so adjacent(neighbour) nodes get different colors.
 </br>The **minimum value of K** for which such a coloring exist is the **Chromatic Number of G**
+</br>[The **chromatic number problem** One of the **NP-hard** problem](https://en.wikipedia.org/wiki/Graph_coloring)
 </br>
 </br>
 </br>

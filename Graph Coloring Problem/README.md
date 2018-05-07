@@ -20,7 +20,7 @@ Given a **graph G** and **K colors**, assign a color to each node so adjacent(ne
 </br>The **minimum value of K** for which such a coloring exist is the **Chromatic Number of G**
 </br>[The **chromatic number problem** One of the **NP-hard** problem](https://en.wikipedia.org/wiki/Graph_coloring)
 </br>
-</br>![](https://github.com/ExploreNcrack/Scheduling-Problem/blob/master/Graph%20Coloring%20Problem/197B4DD0-2B41-4FEB-8405-C2D677B990E4.png)
+</br>![](https://github.com/ExploreNcrack/Scheduling-Problem/blob/master/Graph%20Coloring%20Problem/gc.png)
 </br>
 In the exam scheduling porblem, we can express all the courses in student's schedule as vertices(nodes) and connect the vertices if there are overlaping student in those courses. And then, two courses that are not in the edge set E can have the same exam schedule time. Our goal is to assign minimum number of avaiable timeslots to each of the courses and the courses with overlaping student do not have the same timeslots. When considering this problem in terms of graph, this is exactly what graph coloring problem is. In this case, the number of available timeslots is the number of different colors of the problem.
 
